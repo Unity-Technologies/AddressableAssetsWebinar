@@ -1,39 +1,41 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.AddressableAssets; //TODO: Mention the use of this namespace
+using UnityEngine.ResourceManagement.AsyncOperations; // TODO: Mention that this is needed to do the async operations over the lists?
 using UnityEngine.ResourceManagement.ResourceLocations;
+using UnityEngine.UI;
 
 public class TowerManager : MonoBehaviour
 {
-    public List<IResourceLocation> m_Characters;
+    public IList<GameObject> m_Towers;
 
-    public AssetLabelReference towerLabel;
+    public AssetLabelReference m_TowerLabel;
+
+    public Button[] m_TowerCards;
 
     // Start is called before the first frame update
     void Start()
     {
-        //Addressables.DownloadDependenciesAsync(towerLabel).Completed += FinishedLoadingTowers;
-        Addressables.LoadAssetsAsync<IResourceLocation>(new List<object> { towerLabel.labelString }, null, Addressables.MergeMode.Intersection).Completed += FinishedLoadingTowers2;
+        Addressables.LoadAssetsAsync<GameObject>(m_TowerLabel, null).Completed += OnResourcesRetrieved;
     }
 
-    void FinishedLoadingTowers2(AsyncOperationHandle<IList<IResourceLocation>> op)
+    private void OnResourcesRetrieved(AsyncOperationHandle<IList<GameObject>> obj)
     {
-        foreach(var tower in op.Result)
+        m_Towers = obj.Result;
+
+        //Activate the tower cards since their assets are now loaded
+        foreach(var towerCard in m_TowerCards)
         {
-            Addressables.InstantiateAsync(tower);
+            towerCard.interactable = true;
         }
     }
 
-    //void FinishedLoadingTowers(AsyncOperationHandle obj)
-    //{
-    //    Debug.Log("Loaded Towers");
-    //    m_Characters = new List<IResourceLocation>(obj.Result);
-    //}
-
-    // Update is called once per frame
-    void Update()
+    public void InstantiateTower(int index)
     {
+        if(m_Towers != null)
+        {
+            Instantiate(m_Towers[index]);
+        }
     }
 }

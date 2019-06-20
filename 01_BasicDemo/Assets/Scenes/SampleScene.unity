@@ -133,18 +133,6 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &47556698 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7487905308518787383, guid: 2e58b9faf30c146c3bd5a34149b92896,
-    type: 3}
-  m_PrefabInstance: {fileID: 2104268826}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &168390368
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,8 +195,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c8d0abb536454468df73f3bb66a2ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerLabel:
+  m_TowerLabel:
     m_LabelString: Towers
+  m_TowerCards:
+  - {fileID: 1899667838}
+  - {fileID: 1562315773}
+  - {fileID: 1658656579}
 --- !u!1 &317194877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7411280008316006559, guid: 2e58b9faf30c146c3bd5a34149b92896,
@@ -281,7 +273,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a57b9d7eb2dee465fa9612b31bb5e774,
+      objectReference: {fileID: 21300000, guid: 1ba5530ce5d2d0048ade5e9b5a3ae2d5,
         type: 3}
     - target: {fileID: 7411280008316006496, guid: 2e58b9faf30c146c3bd5a34149b92896,
         type: 3}
@@ -401,11 +393,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3860979476220542173, guid: 2e58b9faf30c146c3bd5a34149b92896, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2e58b9faf30c146c3bd5a34149b92896, type: 3}
---- !u!114 &739563689 stripped
+--- !u!114 &630435500 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7487905308518787383, guid: 2e58b9faf30c146c3bd5a34149b92896,
+  m_CorrespondingSourceObject: {fileID: 6847066528026466117, guid: 2e58b9faf30c146c3bd5a34149b92896,
     type: 3}
-  m_PrefabInstance: {fileID: 1842515556}
+  m_PrefabInstance: {fileID: 2104268826}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -567,14 +559,14 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 739563689}
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 1915572341}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 168390369}
-        m_MethodName: SpawnCharacter
-        m_Mode: 1
+      - m_Target: {fileID: 168390371}
+        m_MethodName: InstantiateTower
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -703,11 +695,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 47556698}
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 630435500}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 168390371}
+        m_MethodName: InstantiateTower
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1677653509 stripped
@@ -971,7 +974,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a57b9d7eb2dee465fa9612b31bb5e774,
+      objectReference: {fileID: 21300000, guid: a2e3cfa50340cc247af17393a545fc65,
         type: 3}
     - target: {fileID: 7411280008316006496, guid: 2e58b9faf30c146c3bd5a34149b92896,
         type: 3}
@@ -1141,13 +1144,13 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1138595980}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 168390369}
-        m_MethodName: SpawnCharacter
+      - m_Target: {fileID: 168390371}
+        m_MethodName: InstantiateTower
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1159,6 +1162,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1915572341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6847066528026466117, guid: 2e58b9faf30c146c3bd5a34149b92896,
+    type: 3}
+  m_PrefabInstance: {fileID: 1842515556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1978152039 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7411280008316006496, guid: 2e58b9faf30c146c3bd5a34149b92896,
@@ -46672,7 +46687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.00010316653, y: 184.99963}
+  m_AnchoredPosition: {x: -183, y: 184.99963}
   m_SizeDelta: {x: 900, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5535855445854242597
@@ -47067,8 +47082,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -275.6, y: 153.4}
-  m_SizeDelta: {x: 692.62, y: 231.94}
+  m_AnchoredPosition: {x: -539.80005, y: 152.6}
+  m_SizeDelta: {x: 1066.1, y: 230.3}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &5535855446716832710
 GameObject:
@@ -47389,6 +47404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CardCover
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378871057786945677, guid: d7458cb8dcbe646878be2cc1fa885bcd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2378871057786945650, guid: d7458cb8dcbe646878be2cc1fa885bcd,
         type: 3}
