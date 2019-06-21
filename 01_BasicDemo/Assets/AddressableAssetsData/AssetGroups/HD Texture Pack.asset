@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: HD Texture Pack
+  m_EditorClassIdentifier: 
+  m_GroupName: HD Texture Pack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 676944b0217a57c458d7f2dcef68aec0
+  m_SerializeEntries:
+  - m_GUID: 0b78352766e1f154ebd4bab1c0ac9847
+    m_Address: ArcherNormal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HD
+  - m_GUID: cceb4af05131d4c49821dfa8adbdf9c8
+    m_Address: ArcherColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HD
+  - m_GUID: d43e4a21075b02542a418bd07fa6e29b
+    m_Address: ArcherMetallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HD
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c06c47da499879249becc228dfa32aed, type: 2}
+    - {fileID: 11400000, guid: 8a4d86139685dd4429fb2a1d4e00ab78, type: 2}

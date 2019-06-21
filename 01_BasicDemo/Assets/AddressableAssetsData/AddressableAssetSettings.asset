@@ -24,6 +24,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a93032e0a40ad4342ae44b8b1dea55e4, type: 2}
   - {fileID: 11400000, guid: 398cb8d8ae7e6de45b7371fe4063d1de, type: 2}
   - {fileID: 11400000, guid: 1f5a084daf2592c4086291cf5aba25d3, type: 2}
+  - {fileID: 11400000, guid: 6b0a86797ad7b5c41aeb735a74c8a8fe, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -80,6 +81,7 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - Towers
+    - HD
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: d8b97bf1bca926e4180587993aa704a8, type: 2}
