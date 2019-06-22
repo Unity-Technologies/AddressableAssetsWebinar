@@ -15,20 +15,10 @@ MonoBehaviour:
   m_GroupName: HD Texture Pack
   m_Data:
     m_SerializedData: []
-  m_GUID: 676944b0217a57c458d7f2dcef68aec0
+  m_GUID: f53ecd4ee33c2e940bf9f9fff528c4be
   m_SerializeEntries:
-  - m_GUID: 0b78352766e1f154ebd4bab1c0ac9847
-    m_Address: ArcherNormal
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - HD
-  - m_GUID: cceb4af05131d4c49821dfa8adbdf9c8
+  - m_GUID: 485c9ee5bf9f4f64496edfe788926c54
     m_Address: ArcherColor
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - HD
-  - m_GUID: d43e4a21075b02542a418bd07fa6e29b
-    m_Address: ArcherMetallic
     m_ReadOnly: 0
     m_SerializedLabels:
     - HD
@@ -36,5 +26,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: c06c47da499879249becc228dfa32aed, type: 2}
-    - {fileID: 11400000, guid: 8a4d86139685dd4429fb2a1d4e00ab78, type: 2}
+    - {fileID: 11400000, guid: 432a11571eb8f844897610b42f1287b1, type: 2}
+    - {fileID: 11400000, guid: 0e6bb37b6f1ce494e949cf5676103046, type: 2}
