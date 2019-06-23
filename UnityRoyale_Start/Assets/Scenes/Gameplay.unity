@@ -163,12 +163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86833df9ecfe7d54b926a14081761cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ArcherObject:
-    m_AssetGUID: f7e6e31c5324d874db515c8ca4922190
-  m_Characters:
-  - m_AssetGUID: f7e6e31c5324d874db515c8ca4922190
-  - m_AssetGUID: ddbc89a2e5731354497399c2803d9354
-  - m_AssetGUID: 36e93c435d1648a4c86d516057a9cbe2
+  m_archerObject: {fileID: 5537164977549460556, guid: f7e6e31c5324d874db515c8ca4922190,
+    type: 3}
 --- !u!4 &168390370
 Transform:
   m_ObjectHideFlags: 0
@@ -190,7 +186,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168390368}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8c8d0abb536454468df73f3bb66a2ef, type: 3}
   m_Name: 
