@@ -9,12 +9,6 @@ public class SceneManager : MonoBehaviour
 {
     public string m_SceneAddressToLoad;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     public void LoadGameplayScene()
     {
         Addressables.LoadSceneAsync(m_SceneAddressToLoad, UnityEngine.SceneManagement.LoadSceneMode.Single).Completed += OnSceneLoaded;
@@ -23,11 +17,6 @@ public class SceneManager : MonoBehaviour
     void OnSceneLoaded(AsyncOperationHandle<SceneInstance> obj)
     {
         //Addressables.UnloadSceneAsync(new SceneInstance());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // LOGIC THAT KICKSTARTS THE GAMEPLAY
     }
 }
