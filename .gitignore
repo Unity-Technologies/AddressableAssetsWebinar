@@ -1,8 +1,15 @@
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
+UnityRoyale/[Ll]ibrary/
+UnityRoyale/[Tt]emp/
+UnityRoyale/[Oo]bj/
+UnityRoyale/[Bb]uild/
+UnityRoyale/[Bb]uilds/
+
+UnityRoyale_Start/[Ll]ibrary/
+UnityRoyale_Start/[Tt]emp/
+UnityRoyale_Start/[Oo]bj/
+UnityRoyale_Start/[Bb]uild/
+UnityRoyale_Start/[Bb]uilds/
+
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
