@@ -13,5 +13,6 @@
 
 ### Useful links:
 * [Addressables Samples](https://github.com/Unity-Technologies/Addressables-Sample)
+* [Addressable Assets Manual](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/index.html)
 * [Power Point File](https://drive.google.com/file/d/18BYrm4mgurjNgvjFYOtWgRfVGG6q5E1p/view?usp=sharing)
 * [UniteLA Presentation on Addressables Video](https://www.youtube.com/watch?v=U8-yh5nC1Mg)
