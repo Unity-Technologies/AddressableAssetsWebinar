@@ -1,4 +1,4 @@
-## Addressables Webinar
+## Addressable Asset System Webinar
 
 ### Project Details
 * Unity 2019.1.4f1
