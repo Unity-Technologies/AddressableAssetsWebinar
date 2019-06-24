@@ -17,8 +17,7 @@ public class TextureController : MonoBehaviour
 
     void LoadTexture(string key, string label)
     {
-        Addressables.LoadAssetsAsync<Texture2D>(new List<object> { key, label }, null, Addressables.MergeMode.Intersection).Completed
-            += TextureLoaded;
+        Addressables.LoadAssetsAsync<Texture2D>(new List<object> { key, label }, null, Addressables.MergeMode.Intersection).Completed += TextureLoaded;
     }
 
     void TextureLoaded(AsyncOperationHandle<IList<Texture2D>> obj)
