@@ -9,7 +9,8 @@
 * Can Asset Bundles be released once they are no longer needed? 
 **There is a feature coming up to clean up unused bundles. Right now depends on the cache settings**.
 
-* 
+* Are Asset Bundles and Groups the same thing?
+**TBA**
 
 ### Useful links:
 * [Addressables Samples](https://github.com/Unity-Technologies/Addressables-Sample)
