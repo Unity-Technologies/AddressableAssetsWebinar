@@ -6,3 +6,6 @@
 
 ### Presentation
 * [Power Point File](https://drive.google.com/file/d/18BYrm4mgurjNgvjFYOtWgRfVGG6q5E1p/view?usp=sharing)
+
+### Q&A
+* Can Asset Bundles be released once they are no longer needed? **There is a feature coming up to clean up unused bundles. Right now depends on the cache settings**.
