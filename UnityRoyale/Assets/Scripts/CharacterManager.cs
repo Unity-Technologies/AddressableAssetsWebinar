@@ -30,8 +30,11 @@ public class CharacterManager : MonoBehaviour
     {
         //Instantiate(m_ArcherObject);
         //m_ArcherObject.InstantiateAsync();
- 
-        m_Characters[characterType].InstantiateAsync();
+
+        if (m_AssetsReady)
+        {
+            m_Characters[characterType].InstantiateAsync();
+        }
     }
 
     void OnCharacterAssetLoaded(AsyncOperationHandle<GameObject> obj)

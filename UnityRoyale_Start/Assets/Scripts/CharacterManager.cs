@@ -29,10 +29,13 @@ public class CharacterManager : MonoBehaviour
     public void SpawnCharacter(int characterType)
     {
         Instantiate(m_archerObject);
-        
+
         //m_ArcherObject.InstantiateAsync();
- 
-        //m_Characters[characterType].InstantiateAsync();
+        
+        //if (m_AssetsReady)
+        //{
+        //    m_Characters[characterType].InstantiateAsync();
+        //}
     }
 
     //void OnCharacterAssetLoaded(AsyncOperationHandle<GameObject> obj)
