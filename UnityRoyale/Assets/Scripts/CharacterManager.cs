@@ -33,7 +33,10 @@ public class CharacterManager : MonoBehaviour
 
         if (m_AssetsReady)
         {
-            m_Characters[characterType].InstantiateAsync();
+            Vector3 position = Random.insideUnitSphere * 5;
+            position.Set(position.x, 0, position.z);
+
+            m_Characters[characterType].InstantiateAsync(position, Quaternion.identity);
         }
     }
 

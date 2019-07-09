@@ -35,7 +35,9 @@ public class TowerManager : MonoBehaviour
     {
         if(m_Towers != null)
         {
-            Instantiate(m_Towers[index]);
+            Vector3 position = Random.insideUnitSphere * 5;
+            position.Set(position.x, 0, position.z);
+            Instantiate(m_Towers[index], position, Quaternion.identity, null);
         }
     }
 }
