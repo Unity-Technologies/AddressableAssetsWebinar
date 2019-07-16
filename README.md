@@ -1,7 +1,7 @@
 ## Addressable Asset System Webinar
 
 ### Project Details
-* Unity 2019.1.4f1
+* Unity 2019.1.9f1
 * Addressables 1.1.4-preview
 * [See the manifest for full details](https://github.com/Unity-Technologies/AddressableAssetsWebinar/blob/master/00_BaseProject/Packages/manifest.json)
 
