@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DefaultGroup: 235b1b7b3b07995419cf9a742b756392
   m_BuildRemoteCatalog: 1
+  m_DisableCatalogUpdateOnStart: 0
+  m_UniqueBundleIds: 0
   m_RemoteCatalogBuildPath:
     m_Id: b3ef28fb6f30e5a428685e456bf06e76
   m_RemoteCatalogLoadPath:
@@ -92,7 +94,6 @@ MonoBehaviour:
     m_AssemblyName: 
     m_ClassName: 
   m_ActivePlayerDataBuilderIndex: 3
-  m_ActivePlayModeDataBuilderIndex: 0
   m_DataBuilders:
   - {fileID: 11400000, guid: dcf6ceae0929885458b8b68a8f813667, type: 2}
   - {fileID: 11400000, guid: 8046d483bf2c3cf4ea2d34f69fda107b, type: 2}
