@@ -14,6 +14,2779 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RuleToResults:
   - RuleName: Check Duplicate Bundle Dependencies
-    Results: []
+    Results:
+    - m_ResultName: Check Duplicate Bundle Dependencies:Characters:characters_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 2
+    - m_ResultName: Check Duplicate Bundle Dependencies:Characters:characters_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+      m_Severity: 2
+    - m_ResultName: Check Duplicate Bundle Dependencies:Characters:characters_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader
+      m_Severity: 2
+    - m_ResultName: Check Duplicate Bundle Dependencies:Towers:towers_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 2
+    - m_ResultName: Check Duplicate Bundle Dependencies:Towers:towers_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+      m_Severity: 2
+    - m_ResultName: Check Duplicate Bundle Dependencies:Towers:towers_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader
+      m_Severity: 2
+    - m_ResultName: Check Duplicate Bundle Dependencies:Base Game:basegame_scenes_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 2
+    - m_ResultName: Check Duplicate Bundle Dependencies:Base Game:basegame_scenes_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+      m_Severity: 2
   - RuleName: Check Scene to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Models/Characters/Warrior_bindpose.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Warrior/Controller/Warrior.controller
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Textures/Characters/TEX_Warrior_D.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:towers_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Textures/Characters/TEX_Warrior_M.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Warrior/Warrior_die.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Warrior/Warrior_Idle.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Warrior/Warrior_Attack.anim
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Warrior/Warrior_Gethit.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Warrior/Warrior_Run.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Textures/Characters/TEX_Warrior_N.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Materials/MAT_Warrior_Red.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Textures/Characters/TEX_Archer_M.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Textures/Characters/TEX_Archer_D.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Archer/Archer_Idle.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Archer/Archer_Run.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Archer/Archer_getHit.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Textures/Characters/TEX_Archer_N.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Archer/Archer_Die.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Archer/Controller/Archer.overrideController
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Models/Characters/Archer_Bindpose.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Materials/MAT_Archer_Red.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:characters_assets_all.bundle:Assets/Animations/Characters/Archer/Archer_attack.anim
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Materials/MAT_ENVProps1.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Materials/Ground2.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Materials/MAT_ENVTrees.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Materials/MAT_FarmHouse.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Materials/MAT_ENVProps2.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Materials/GroundBG.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Materials/Ground1.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_2.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-10_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-7_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_23.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_36.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_61.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_55.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-11_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_30.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_8.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_5.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_0.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-5_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_2.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_19.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_20.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_10.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVProps2_M.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_6.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-5_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_44.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_FarmHouse_M.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_grass3_N.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_54.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_4.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-3_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_3.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_48.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-8_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/CardArt/Viking.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVProps1_D.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/Elements/icon_dmg.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_50.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_37.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/ENVGround_MAT_sand2_N.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_42.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_FarmHouse_D.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-12_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_6.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVProps2_D.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_29.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_14.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_45.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_40.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-4_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_0.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/Elements/ui_stone_slab_tiled.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVTrees_M.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_51.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/Elements/ui_card_front.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_35.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_21.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-9_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/CardArt/MageTower.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_53.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/Elements/ui_cardmask.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_33.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_34.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/Elements/icon_health.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_3.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_4.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-8_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_49.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_1.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVProps2_N.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_24.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_7.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/Elements/ui_card_back.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_grass3_D_v2.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_25.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVProps1_N.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_27.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_15.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/SearchTex.tga
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_5.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_59.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVProps1_M.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-12_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_13.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_38.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-7_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_62.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-11_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_1.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_28.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-6_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_43.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_12.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/CardArt/ArcherTower.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_32.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_47.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_63.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_41.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-9_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-2_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-4_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/CardArt/Mage.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_58.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_16.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_31.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/ENVGround_MAT_sand2_M.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_17.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_9.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVTrees_N.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_18.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-10_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_57.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_ENVTrees_D.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/CardArt/RedTower.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_7.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/UI/CardArt/Archers.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_grass3_M.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_46.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-3_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-6_comp_dir.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_60.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_11.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_52.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_26.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_22.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/TEX_FarmHouse_N.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_39.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_56.png
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Textures/ENVGround_MAT_sand2_D.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Models/MOD_FarmHouse.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessLayer.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ColorGrading.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scripts/CharacterManager.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scripts/TowerManager.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessVolume.cs
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Scenes/SampleScene/LightingData.asset
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/QualityLevelsDemo.unity:basegame_scenes_all.bundle:Assets/Configuration/PostProcessing.asset
+      m_Severity: 2
+  - RuleName: Check Resources to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: Check Resources to Addressable Duplicate Dependencies - No issues
+        found.
+      m_Severity: 0
+  - RuleName: Check Sprite Atlas to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: No issues found
+      m_Severity: 0
+  - RuleName: Build Bundle Layout
+    Results:
+    - m_ResultName: characters_assets_all.bundle:Explicit:Assets/Prefabs/Characters/Warrior
+        Red.prefab
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Explicit:Assets/Prefabs/Characters/Mage
+        Red.prefab
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Explicit:Assets/Prefabs/Characters/Archer
+        Red.prefab
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Explicit:Assets/Prefabs/Towers/Magic
+        Tower Red.prefab
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Explicit:Assets/Prefabs/Towers/Archer
+        Tower Red.prefab
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Explicit:Assets/Prefabs/Towers/Barracks
+        Tower Red.prefab
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Explicit:Assets/Scenes/Gameplay.unity
+      m_Severity: 0
+    - m_ResultName: hdtexturespack_assets_all.bundle:Explicit:Assets/Textures/Characters/TEX_Archer2_D.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Warrior_bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Warrior_bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Warrior_bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Warrior/Controller/Warrior.controller
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Warrior_D.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Warrior_M.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Warrior/Warrior_die.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Warrior/Warrior_Idle.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Warrior/Warrior_Attack.anim
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Warrior/Warrior_Gethit.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Warrior/Warrior_Run.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Warrior_N.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Materials/MAT_Warrior_Red.mat
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Mage_N.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Mage_A.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Mage/Mage_Gethit.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Mage/Mage_Attack.anim
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Materials/M_Fire.mat
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Mage_Bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Mage_Bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Mage_Bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Mage/Controller/Mage.overrideController
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Mage/Mage_Idle.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Shaders/AnimateShader.shader
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Mage/Mage_Die.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Materials/FaceFire.mat
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Materials/MAT_Mage_Red.mat
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Mage/Mage_Run.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/VFX/fire.tga
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Mage_M.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Archer_M.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Archer_D.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Archer/Archer_Idle.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Archer/Archer_Run.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Archer/Archer_getHit.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Textures/Characters/TEX_Archer_N.tif
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Archer/Archer_Die.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Archer/Controller/Archer.overrideController
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Archer_Bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Archer_Bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Archer_Bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Models/Characters/Archer_Bindpose.fbx
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Materials/MAT_Archer_Red.mat
+      m_Severity: 0
+    - m_ResultName: characters_assets_all.bundle:Implicit:Assets/Animations/Characters/Archer/Archer_attack.anim
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_Rope_D.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Materials/Towers/MAT_woodTiles.mat
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Materials/Towers/MAT_dustStone_001.mat
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_MagicTower_M.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/Scaffolding.FBX
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/Scaffolding.FBX
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Materials/Towers/MAT_dustPuff_001.mat
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_MagicTower_N.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MagicTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_tilesWood_D.tga
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Materials/Towers/MAT_rope.mat
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Materials/Towers/MAT_fallingDust_001.mat
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_Dust_Puff_001_D.tga
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesLit.mat
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_MagicTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_MagicTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_MagicTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_MagicTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_MagicTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_Stone_001_D.tga
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Materials/Towers/MAT_MagicTower.mat
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Animations/Towers/MagicTower_Destruction.controller
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_Dust_Sprite_D.TGA
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_MagicTower_D.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_ArcherTower_D.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_ArcherTower_N.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Animations/Towers/ArcherTower_Destruction.controller
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_ArcherTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_ArcherTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_ArcherTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_ArcherTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_ArcherTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_ArcherTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_ArcherTower_M.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Materials/Towers/MAT_ArcherTower.mat
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/ArcherTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/BarracksTower_Des_111.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_BarracksTower_M.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_BarracksTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_BarracksTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_BarracksTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Models/Towers/MOD_BarracksTower.fbx
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_BarracksTower_D.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Textures/Towers/TEX_BarracksTower_N.tif
+      m_Severity: 0
+    - m_ResultName: towers_assets_all.bundle:Implicit:Assets/Materials/Towers/MAT_BarracksTower.mat
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Materials/MAT_ENVProps1.mat
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Materials/Ground2.mat
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Materials/MAT_ENVTrees.mat
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Materials/MAT_FarmHouse.mat
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Materials/MAT_ENVProps2.mat
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Materials/GroundBG.mat
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Materials/Ground1.mat
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_2.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-10_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-7_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_23.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_36.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_61.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_55.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-11_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_30.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_8.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_5.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_0.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-5_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_2.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_19.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_20.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_10.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVProps2_M.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_6.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-5_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_44.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_FarmHouse_M.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_grass3_N.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_54.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_4.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-3_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_3.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_48.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-8_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/Viking.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVProps1_D.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/icon_dmg.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_50.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_37.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/ENVGround_MAT_sand2_N.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_42.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_FarmHouse_D.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-12_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_6.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVProps2_D.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_29.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_14.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_45.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_40.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-4_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_0.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/ui_stone_slab_tiled.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVTrees_M.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_51.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/ui_card_front.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_35.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_21.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-9_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/MageTower.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_53.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/ui_cardmask.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_33.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_34.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/icon_health.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_3.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_4.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-8_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_49.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_1.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVProps2_N.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_24.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_7.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/ui_card_back.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_grass3_D_v2.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_25.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVProps1_N.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_27.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_15.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/SearchTex.tga
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_5.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_59.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVProps1_M.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-12_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_13.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_38.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-7_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_62.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-11_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 256px/LDR_LLL1_1.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_28.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-6_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_43.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_12.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/ArcherTower.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_32.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_47.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_63.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_41.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-9_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-2_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-4_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/Mage.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_58.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_16.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_31.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/ENVGround_MAT_sand2_M.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_17.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_9.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVTrees_N.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_18.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-10_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_57.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_ENVTrees_D.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/RedTower.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_7.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/Archers.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_grass3_M.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_46.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-3_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-6_comp_dir.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_60.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_11.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_52.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_26.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_22.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/TEX_FarmHouse_N.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_39.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Textures/Blue
+        Noise 64px/LDR_LLL1_56.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/ENVGround_MAT_sand2_D.tif
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_FarmHouse.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_FarmHouse.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_FarmHouse.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Models/MOD_ENVProps.fbx
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/Viking.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/icon_dmg.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/ui_stone_slab_tiled.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/ui_card_front.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/MageTower.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/ui_cardmask.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/icon_health.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/Elements/ui_card_back.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/ArcherTower.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/Mage.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/RedTower.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Textures/UI/CardArt/Archers.png
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Scenes/SampleScene/LightingData.asset
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Configuration/PostProcessing.asset
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Configuration/PostProcessing.asset
+      m_Severity: 0
+    - m_ResultName: basegame_scenes_all.bundle:Implicit:Assets/Configuration/PostProcessing.asset
+      m_Severity: 0
+  - RuleName: UnityEditor.AddressableAssets.Build.AnalyzeRules.AnalyzeRule
     Results: []

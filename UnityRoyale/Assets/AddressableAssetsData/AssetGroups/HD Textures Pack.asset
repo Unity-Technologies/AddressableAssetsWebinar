@@ -17,11 +17,13 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: eed4c0927ce7b7d439254fb01b853f90
   m_SerializeEntries:
-  - m_GUID: cceb4af05131d4c49821dfa8adbdf9c8
+  - m_GUID: 485c9ee5bf9f4f64496edfe788926c54
     m_Address: ArcherColor
     m_ReadOnly: 0
     m_SerializedLabels:
     - HD
+    m_mainAssetType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
   m_SchemaSet:
