@@ -16,22 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 91800dc2c0baf524f9a2afe1bdcff941
-  m_SerializeEntries:
-  - m_GUID: 3ff00a54555991142af79653a79d0d88
-    m_Address: Assets/Prefabs/Towers/Magic Tower Red.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Tower
-  - m_GUID: b6269ce7e4b3aa440a7adee70f27456f
-    m_Address: Assets/Prefabs/Towers/Archer Tower Red.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Tower
-  - m_GUID: dd280e7a9315109438464a3cda98bd43
-    m_Address: Assets/Prefabs/Towers/Barracks Tower Red.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Tower
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
   m_SchemaSet:

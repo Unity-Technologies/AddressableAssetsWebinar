@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ArchersPack
+  m_EditorClassIdentifier: 
+  m_GroupName: ArchersPack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: dd197766b855ffd4cb5a99d101f9f63a
+  m_SerializeEntries:
+  - m_GUID: b6269ce7e4b3aa440a7adee70f27456f
+    m_Address: Assets/Prefabs/Towers/Archer Tower Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Archers
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_GUID: f7e6e31c5324d874db515c8ca4922190
+    m_Address: Assets/Prefabs/Characters/Archer Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Archers
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3fe57f7a3aa234a45a54877e6443677d, type: 2}
+    - {fileID: 11400000, guid: 89cb697ad244c93409d998d6e7899313, type: 2}

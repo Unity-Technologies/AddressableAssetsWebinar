@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets; //TODO: Mention the use of this namespace
 using UnityEngine.ResourceManagement.AsyncOperations; // TODO: Mention that this is needed to do the async operations over the lists?
-using UnityEngine.ResourceManagement.ResourceLocations;
 using UnityEngine.UI;
 
 public class TowerManager : MonoBehaviour
@@ -29,6 +27,35 @@ public class TowerManager : MonoBehaviour
         {
             towerCard.interactable = true;
         }
+    }
+
+    public void InstantiateArcher()
+    {
+    }
+
+    public void InstantiateArcherTower()
+    {
+
+    }
+
+    public void InstantiateMage()
+    {
+
+    }
+
+    public void InstantiateMageTower()
+    {
+
+    }
+
+    public void InstantiateWarrior()
+    {
+
+    }
+
+    public void InstantiateWarriorTower()
+    {
+
     }
 
     public void InstantiateTower(int index)

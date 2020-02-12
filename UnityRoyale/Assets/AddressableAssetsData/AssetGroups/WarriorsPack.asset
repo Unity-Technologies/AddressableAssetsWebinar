@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WarriorsPack
+  m_EditorClassIdentifier: 
+  m_GroupName: WarriorsPack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d9f67facef2e23043886f3ace50ea5ac
+  m_SerializeEntries:
+  - m_GUID: 36e93c435d1648a4c86d516057a9cbe2
+    m_Address: Assets/Prefabs/Characters/Warrior Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Warriors
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_GUID: dd280e7a9315109438464a3cda98bd43
+    m_Address: Assets/Prefabs/Towers/Barracks Tower Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Warriors
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7635f6c04a26cc8458447f8887f86b56, type: 2}
+    - {fileID: 11400000, guid: 336a6dbd35a487442aad39ba173735e6, type: 2}

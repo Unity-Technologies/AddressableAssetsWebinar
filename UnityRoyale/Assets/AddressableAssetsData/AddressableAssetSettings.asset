@@ -28,6 +28,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f4c2ea7a6c0cd58448ebcfbff1a5f157, type: 2}
   - {fileID: 11400000, guid: cddefdc332422394487dff9f4d985805, type: 2}
   - {fileID: 11400000, guid: ed29e2c2465e8c342896f6448de5c42f, type: 2}
+  - {fileID: 11400000, guid: b721daa0fca82754091a844405f47efe, type: 2}
+  - {fileID: 11400000, guid: c170b90c4c4241e4baa459d108544f81, type: 2}
+  - {fileID: 11400000, guid: 41ffd9a7ebf9dd849bee0b0780548d1b, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -100,6 +103,9 @@ MonoBehaviour:
     - Tower
     - HD
     - SD
+    - Archers
+    - Mages
+    - Warriors
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: d8b97bf1bca926e4180587993aa704a8, type: 2}
@@ -113,7 +119,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8046d483bf2c3cf4ea2d34f69fda107b, type: 2}
   - {fileID: 11400000, guid: 56c32fa2c9ffae640acc1e624bf68700, type: 2}
   - {fileID: 11400000, guid: 08ee61d09f0883645830bfea205a6a40, type: 2}
-  m_ActiveProfileId: efd1aaf0a63430a41b8f0b60ea4fa122
+  m_ActiveProfileId: a5e4986cc0c19ca4b94ba15138349d29
   m_HostingServicesManager:
     m_HostingServiceInfos:
     - classRef: UnityEditor.AddressableAssets.HostingServices.HttpHostingService,
@@ -122,7 +128,7 @@ MonoBehaviour:
         m_SerializedData:
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Int32
-          m_Data: 53069
+          m_Data: 58867
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
