@@ -33,12 +33,12 @@ public class CardsManager : MonoBehaviour
 
     public void LoadMages()
     {
-        Addressables.LoadAssetsAsync<GameObject>(m_ArcherLabel, null).Completed += OnMagesRetrieved;
+        Addressables.LoadAssetsAsync<GameObject>(m_MageLabel, null).Completed += OnMagesRetrieved;
     }
 
     public void LoadWarriors()
     {
-        Addressables.LoadAssetsAsync<GameObject>(m_ArcherLabel, null).Completed += OnWarriorsRetrieved;
+        Addressables.LoadAssetsAsync<GameObject>(m_WarriorLabel, null).Completed += OnWarriorsRetrieved;
     }
 
     private void OnArchersRetrieved(AsyncOperationHandle<IList<GameObject>> obj)

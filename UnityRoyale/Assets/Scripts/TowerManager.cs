@@ -6,66 +6,48 @@ using UnityEngine.UI;
 
 public class TowerManager : MonoBehaviour
 {
-    public IList<GameObject> m_Towers;
+    //public IList<GameObject> m_Towers;
 
-    public AssetLabelReference m_TowerLabel;
+    //public AssetLabelReference m_TowerLabel;
 
-    public Button[] m_TowerCards;
+    //public Button[] m_TowerCards;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        Addressables.LoadAssetsAsync<GameObject>(m_TowerLabel, null).Completed += OnResourcesRetrieved;
-    }
+    //public List<AssetReference> m_Characters;
 
-    private void OnResourcesRetrieved(AsyncOperationHandle<IList<GameObject>> obj)
-    {
-        m_Towers = obj.Result;
+    public List<AssetReference> m_Towers;
 
-        //Activate the tower cards since their assets are now loaded
-        foreach(var towerCard in m_TowerCards)
-        {
-            towerCard.interactable = true;
-        }
-    }
-
-    public void InstantiateArcher()
-    {
-    }
-
-    public void InstantiateArcherTower()
+    public void SpawnTower(int towerType)
     {
 
+        Vector3 position = Random.insideUnitSphere * 5;
+        position.Set(position.x, 0, position.z);
+
+        m_Towers[towerType].InstantiateAsync(position, Quaternion.identity);
     }
 
-    public void InstantiateMage()
-    {
+    //public void InstantiateMageTower()
+    //{
 
-    }
+    //}
 
-    public void InstantiateMageTower()
-    {
+    //public void InstantiateWarrior()
+    //{
 
-    }
+    //}
 
-    public void InstantiateWarrior()
-    {
+    //public void InstantiateWarriorTower()
+    //{
 
-    }
+    //}
 
-    public void InstantiateWarriorTower()
-    {
+    //public void InstantiateTower(int index)
+    //{
+    //    if(m_Towers != null)
+    //    {
+    //        Vector3 position = Random.insideUnitSphere * 5;
+    //        position.Set(position.x, 0, position.z);
 
-    }
-
-    public void InstantiateTower(int index)
-    {
-        if(m_Towers != null)
-        {
-            Vector3 position = Random.insideUnitSphere * 5;
-            position.Set(position.x, 0, position.z);
-
-            Instantiate(m_Towers[index], position, Quaternion.identity, null);
-        }
-    }
+    //        Instantiate(m_Towers[index], position, Quaternion.identity, null);
+    //    }
+    //}
 }

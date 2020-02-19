@@ -6,9 +6,6 @@ using UnityEngine.ResourceManagement.AsyncOperations; // TODO: Mention that this
 public class CharacterManager : MonoBehaviour
 {
     public List<AssetReference> m_Characters;
-    bool m_AssetsReady = false;
-    int m_ToLoadCount;
-    int m_CharacterIndex = 0;
 
     //// Start is called before the first frame update
     //void Start()
@@ -31,13 +28,13 @@ public class CharacterManager : MonoBehaviour
             m_Characters[characterType].InstantiateAsync(position, Quaternion.identity);
     }
 
-    void OnCharacterAssetLoaded(AsyncOperationHandle<GameObject> obj)
-    {
-        m_ToLoadCount--;
+    //void OnCharacterAssetLoaded(AsyncOperationHandle<GameObject> obj)
+    //{
+    //    m_ToLoadCount--;
 
-        if (m_ToLoadCount <= 0)
-            m_AssetsReady = true;
-    }
+    //    if (m_ToLoadCount <= 0)
+    //        m_AssetsReady = true;
+    //}
 
     //private void OnDestroy() //TODO: Should we teach instantiate with game objects and then manually release?
     //{

@@ -193,17 +193,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168390368}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8c8d0abb536454468df73f3bb66a2ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TowerLabel:
-    m_LabelString: Tower
-  m_TowerCards:
-  - {fileID: 1899667838}
-  - {fileID: 1562315773}
-  - {fileID: 1658656579}
+  m_Towers:
+  - m_AssetGUID: b6269ce7e4b3aa440a7adee70f27456f
+    m_SubObjectName: 
+  - m_AssetGUID: 3ff00a54555991142af79653a79d0d88
+    m_SubObjectName: 
+  - m_AssetGUID: dd280e7a9315109438464a3cda98bd43
+    m_SubObjectName: 
 --- !u!114 &168390372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -743,7 +744,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 168390371}
-        m_MethodName: InstantiateTower
+        m_MethodName: SpawnTower
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1004,7 +1005,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 168390371}
-        m_MethodName: InstantiateTower
+        m_MethodName: SpawnTower
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1453,7 +1454,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 168390371}
-        m_MethodName: InstantiateTower
+        m_MethodName: SpawnTower
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
