@@ -114,7 +114,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8046d483bf2c3cf4ea2d34f69fda107b, type: 2}
   - {fileID: 11400000, guid: 56c32fa2c9ffae640acc1e624bf68700, type: 2}
   - {fileID: 11400000, guid: 08ee61d09f0883645830bfea205a6a40, type: 2}
-  m_ActiveProfileId: a5e4986cc0c19ca4b94ba15138349d29
+  m_ActiveProfileId: efd1aaf0a63430a41b8f0b60ea4fa122
   m_HostingServicesManager:
     m_HostingServiceInfos:
     - classRef: UnityEditor.AddressableAssets.HostingServices.HttpHostingService,
@@ -123,7 +123,7 @@ MonoBehaviour:
         m_SerializedData:
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Int32
-          m_Data: 58867
+          m_Data: 53477
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
