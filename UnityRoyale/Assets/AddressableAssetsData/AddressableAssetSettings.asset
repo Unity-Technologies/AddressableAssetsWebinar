@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 235b1b7b3b07995419cf9a742b756392
+  m_DefaultGroup: c557c1d4e60fc944ebe1e3e26f524b6d
   m_BuildRemoteCatalog: 1
   m_DisableCatalogUpdateOnStart: 0
   m_UniqueBundleIds: 0
@@ -23,11 +23,6 @@ MonoBehaviour:
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: b25634c9765b3944f85cc1474bb084a6, type: 2}
-  - {fileID: 11400000, guid: a93032e0a40ad4342ae44b8b1dea55e4, type: 2}
-  - {fileID: 11400000, guid: 478788d7b8de33a47a73f77a4d111d4d, type: 2}
-  - {fileID: 11400000, guid: f4c2ea7a6c0cd58448ebcfbff1a5f157, type: 2}
-  - {fileID: 11400000, guid: cddefdc332422394487dff9f4d985805, type: 2}
-  - {fileID: 11400000, guid: ed29e2c2465e8c342896f6448de5c42f, type: 2}
   - {fileID: 11400000, guid: b721daa0fca82754091a844405f47efe, type: 2}
   - {fileID: 11400000, guid: c170b90c4c4241e4baa459d108544f81, type: 2}
   - {fileID: 11400000, guid: 41ffd9a7ebf9dd849bee0b0780548d1b, type: 2}
@@ -132,7 +127,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/StreamingAssetsCopy/aa/Windows/StandaloneWindows64;HostedData/StandaloneWindows64
+          m_Data: Library/com.unity.addressables/StreamingAssetsCopy/aa/Windows/StandaloneWindows64
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean

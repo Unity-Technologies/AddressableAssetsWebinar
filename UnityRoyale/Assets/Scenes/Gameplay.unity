@@ -229,6 +229,10 @@ MonoBehaviour:
   m_MageHouseCard: {fileID: 1562315773}
   m_WarriorCard: {fileID: 317194880}
   m_WarriorHouseCard: {fileID: 1658656579}
+  m_ConfirmationWindow: {fileID: 177220995499078305, guid: f633b3ffa4dffcf4b965582743d6cf38,
+    type: 3}
+  m_UnlockMagesButton: {fileID: 2051613232}
+  m_UnlockWarriorsButton: {fileID: 1590751509}
 --- !u!1 &317194877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7411280008316006559, guid: 2e58b9faf30c146c3bd5a34149b92896,
@@ -1116,7 +1120,7 @@ MonoBehaviour:
   isGlobal: 1
   blendDistance: 0
   weight: 1
-  priority: 0
+  priority: 1
 --- !u!114 &1756215548
 MonoBehaviour:
   m_ObjectHideFlags: 0

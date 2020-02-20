@@ -19,10 +19,13 @@ public class CardsManager : MonoBehaviour
     public Button m_WarriorCard;
     public Button m_WarriorHouseCard;
 
+    public GameObject m_ConfirmationWindow;
+    public GameObject m_UnlockMagesButton;
+    public GameObject m_UnlockWarriorsButton;
+
     // Start is called before the first frame update
     void Start()
     {
-        //Addressables.LoadAssetsAsync<GameObject>(m_ArcherLabel, null).Completed += OnResourcesRetrieved;
         LoadArchers();
     }
 
@@ -55,6 +58,9 @@ public class CardsManager : MonoBehaviour
         // Activate the buttons to be interactable
         m_MageCard.interactable = true;
         m_MageHouseCard.interactable = true;
+
+        Destroy(m_UnlockMagesButton);
+        Instantiate(m_ConfirmationWindow);
     }
 
     private void OnWarriorsRetrieved(AsyncOperationHandle<IList<GameObject>> obj)
@@ -63,5 +69,8 @@ public class CardsManager : MonoBehaviour
         // Activate the buttons to be interactable
         m_WarriorCard.interactable = true;
         m_WarriorHouseCard.interactable = true;
+
+        Destroy(m_UnlockWarriorsButton);
+        Instantiate(m_ConfirmationWindow);
     }
 }
