@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: c557c1d4e60fc944ebe1e3e26f524b6d
+  m_DefaultGroup: cf4387f4f86ced14f8b338f838345009
   m_BuildRemoteCatalog: 1
   m_DisableCatalogUpdateOnStart: 0
   m_UniqueBundleIds: 0
@@ -23,6 +23,7 @@ MonoBehaviour:
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: b25634c9765b3944f85cc1474bb084a6, type: 2}
+  - {fileID: 11400000, guid: 47cc08d213448064bbbf75d54a99964c, type: 2}
   - {fileID: 11400000, guid: b721daa0fca82754091a844405f47efe, type: 2}
   - {fileID: 11400000, guid: c170b90c4c4241e4baa459d108544f81, type: 2}
   - {fileID: 11400000, guid: 41ffd9a7ebf9dd849bee0b0780548d1b, type: 2}
@@ -74,7 +75,7 @@ MonoBehaviour:
       - m_Id: b3ef28fb6f30e5a428685e456bf06e76
         m_Value: HostedData/[BuildTarget]
       - m_Id: e584e75e8dabb8d4daebf8268aacebd6
-        m_Value: https://fd4b4061-559c-4baf-9a9a-b8e2d9ab4eed.client-api.unity3dusercontent.com/client_api/v1/buckets/94c0f856-2eb7-46bd-b878-6ef854d51e8e/release_by_badge/first_badge/entry_by_path/content/?path=
+        m_Value: https://fd4b4061-559c-4baf-9a9a-b8e2d9ab4eed.client-api.unity3dusercontent.com/client_api/v1/buckets/7feb6cbb-41bb-498b-b33c-7c49b585eaa7/release_by_badge/first_badge/entry_by_path/content/?path=
     m_ProfileEntryNames:
     - m_Id: 7f25381b3aaedff4dbba527cf55463e5
       m_Name: BuildTarget
@@ -127,7 +128,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/StreamingAssetsCopy/aa/Windows/StandaloneWindows64
+          m_Data: Library/com.unity.addressables/StreamingAssetsCopy/aa/Windows/StandaloneWindows64;HostedData/StandaloneWindows64
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean
