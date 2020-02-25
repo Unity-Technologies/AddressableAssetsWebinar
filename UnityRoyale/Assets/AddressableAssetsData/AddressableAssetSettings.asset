@@ -27,6 +27,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b721daa0fca82754091a844405f47efe, type: 2}
   - {fileID: 11400000, guid: c170b90c4c4241e4baa459d108544f81, type: 2}
   - {fileID: 11400000, guid: 41ffd9a7ebf9dd849bee0b0780548d1b, type: 2}
+  - {fileID: 11400000, guid: b965622113c043a4099352324d4b255a, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -96,9 +97,6 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
-    - Tower
-    - HD
-    - SD
     - Archers
     - Mages
     - Warriors

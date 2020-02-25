@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 168390369}
   - component: {fileID: 168390371}
   - component: {fileID: 168390372}
+  - component: {fileID: 168390373}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -233,6 +234,18 @@ MonoBehaviour:
     type: 3}
   m_UnlockMagesButton: {fileID: 2051613232}
   m_UnlockWarriorsButton: {fileID: 1590751509}
+--- !u!114 &168390373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168390368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 931e275bce99b3a4e9f201e15217980c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &317194877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7411280008316006559, guid: 2e58b9faf30c146c3bd5a34149b92896,
@@ -1734,75 +1747,6 @@ PrefabInstance:
     - {fileID: 3118508716536056786, guid: 2e58b9faf30c146c3bd5a34149b92896, type: 3}
     - {fileID: 1283518300021083331, guid: 2e58b9faf30c146c3bd5a34149b92896, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2e58b9faf30c146c3bd5a34149b92896, type: 3}
---- !u!1001 &2342367020155396530
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2342367018737202226, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_Name
-      value: GreenLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342367018737202227, guid: 69ee516a2330fe042816c9ba46b2428e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 69ee516a2330fe042816c9ba46b2428e, type: 3}
 --- !u!4 &4963452824421724100
 Transform:
   m_ObjectHideFlags: 0
@@ -1845,8 +1789,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
+  m_Intensity: 1.29
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
